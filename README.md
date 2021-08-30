@@ -12,7 +12,15 @@ FDN implementation of:
 [CCRMA]: https://ccrma.stanford.edu/~jos/pasp/Feedback_Delay_Networks_FDN.html
 # Background
 
-
+### Reverberation
 Reverberation is a sound that continues even after the sound is generated.
+
+<img src="https://user-images.githubusercontent.com/86009768/131354917-b95f56d0-c415-4a98-9f47-b3c00262c1c2.png"  width="250" height="200">
+
+### Reverberation time
+
+The time it takes for the signal to fall by 60dB.
+
+
 
 
