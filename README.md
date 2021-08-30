@@ -10,3 +10,13 @@ FDN implementation of:
 * [Center for Computer Research in Music and Acoustics (CCRMA),   Stanford University][id]
 
 [id]: URL "https://ccrma.stanford.edu/~jos/pasp/Feedback_Delay_Networks_FDN.html"
+
+
+[link keyword][id]
+
+[id]: URL "Optional Title here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com "Go google"
