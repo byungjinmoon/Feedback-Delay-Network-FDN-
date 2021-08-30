@@ -4,7 +4,7 @@ An implementation of feedback delay network (FDN) in Matlab.
 FDN implementation of:
 
 * [Designing Multi-Channel Reverberators][research]
-* 
+
 [research]: https://www.jstor.org/stable/3680358
 
 * [Center for Computer Research in Music and Acoustics (CCRMA),   Stanford University][CCRMA]
