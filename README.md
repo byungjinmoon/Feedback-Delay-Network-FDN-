@@ -25,5 +25,11 @@ The time it takes for the signal to fall by 60dB.
 
 * RT 60 : Time required for 60dB reduction of direct sound reflections
 * Reverberation time ∝"Room size"
-* Reverberation time ∝𝟏/𝑨𝒃𝒔𝒐𝒓𝒑𝒕𝒊𝒐𝒏"
+* Reverberation time ∝"1/Absorption
+
+### Feedback Delay Network (FDN)
+
+The FDN can be seen as a vector feedback comb filter, obtained by replacing the delay line with a diagonal delay matrix, and replacing the feedback gain by the product of a diagonal matrix times an orthogonal matrix.
+
+
 
