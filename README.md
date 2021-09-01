@@ -40,4 +40,6 @@ Feedback delay networks (FDNs) are recursive filters, which are widely used for 
 
   FDN structure 
   
+  ![FDN structure](https://user-images.githubusercontent.com/86009768/131669077-b834450b-f8f2-48bf-aec5-2f484338fe01.png)
+
 
