@@ -25,7 +25,7 @@ The time it takes for the signal to fall by 60dB.
 
 * RT 60 : Time required for 60dB reduction of direct sound reflections
 * Reverberation time ∝"Room size"
-* Reverberation time ∝"1/Absorption
+* Reverberation time ∝"1/Absorption"
 
 ### Feedback Delay Network (FDN)
 
@@ -38,7 +38,8 @@ Feedback delay networks (FDNs) are recursive filters, which are widely used for 
   ![Comfilter to FDN](https://user-images.githubusercontent.com/86009768/131666658-3982d785-f14c-4566-853e-9722849eec2b.png)
 
 
-  FDN structure 
+  FDN structure - 4channel example 
+  (각 parameter 구하는 밥법 정리 필요)
   
   ![FDN structure](https://user-images.githubusercontent.com/86009768/131669077-b834450b-f8f2-48bf-aec5-2f484338fe01.png)
 
