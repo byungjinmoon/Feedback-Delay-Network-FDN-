@@ -33,6 +33,10 @@ The FDN can be seen as a vector feedback comb filter, obtained by replacing the 
 
 * How to implemetation?
   
+  The FDN can be seen as a vector feedback comb filter, obtained by replacing the delay line with a diagonal delay matrix, and replacing the feedback gain by the product of a diagonal matrix times an orthogonal matrix.
+  
+  ![Comfilter to FDN](https://user-images.githubusercontent.com/86009768/131666658-3982d785-f14c-4566-853e-9722849eec2b.png)
+
 
 
   * comb filter st
