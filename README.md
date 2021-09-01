@@ -29,7 +29,7 @@ The time it takes for the signal to fall by 60dB.
 
 ### Feedback Delay Network (FDN)
 
-The FDN can be seen as a vector feedback comb filter, obtained by replacing the delay line with a diagonal delay matrix, and replacing the feedback gain by the product of a diagonal matrix times an orthogonal matrix.
+Feedback delay networks (FDNs) are recursive filters, which are widely used for artificial reverberation and  built around multiple delays which are feedback to their inputs and by this mimic the  sound waves bouncing back and forth in an acoustic space.
 
 * How to implemetation?
   
@@ -38,6 +38,6 @@ The FDN can be seen as a vector feedback comb filter, obtained by replacing the 
   ![Comfilter to FDN](https://user-images.githubusercontent.com/86009768/131666658-3982d785-f14c-4566-853e-9722849eec2b.png)
 
 
-
-  * comb filter st
+  FDN structure 
+  
 
