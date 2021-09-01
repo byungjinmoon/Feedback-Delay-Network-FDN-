@@ -31,5 +31,9 @@ The time it takes for the signal to fall by 60dB.
 
 The FDN can be seen as a vector feedback comb filter, obtained by replacing the delay line with a diagonal delay matrix, and replacing the feedback gain by the product of a diagonal matrix times an orthogonal matrix.
 
+* How to implemetation?
+  
 
+
+  * comb filter st
 
