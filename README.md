@@ -37,9 +37,16 @@ Comb filter is the basic building block for digital audio effects and the basic 
 * To define a desired reverberation time for comb filters every gain has to be set according to the following equation. ![image](https://user-images.githubusercontent.com/86009768/132216787-ad42776d-525e-415d-b1ab-e95b075b9ee6.png)
 
 ### Direct sound, early reflection and late reflection
+![RIR_1](https://user-images.githubusercontent.com/86009768/132230822-c3676994-879f-44d6-8dd8-14b37731b3e5.png)
 ![RIR2](https://user-images.githubusercontent.com/86009768/132230818-affd21b1-f6e4-4945-bb5d-267fc443cd60.png)
 
-
+Direct sound 
+* Direct sound means the sound that comes directly to our ears from the reverberation space.
+Ealry reflection 
+* Early reflection means a response that is not high in density because it is reflected twice or more.
+* Early reflection is Important cues of time separation, frequency characteristics, and incident angle of the reflections.
+Late reflection
+* Late reflection means a response with high reflection density.
 
 
 ### Feedback Delay Network (FDN)
