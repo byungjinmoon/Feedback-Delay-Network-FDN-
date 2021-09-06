@@ -42,9 +42,11 @@ Comb filter is the basic building block for digital audio effects and the basic 
 
 Direct sound 
 * Direct sound means the sound that comes directly to our ears from the reverberation space.
+
 Ealry reflection 
 * Early reflection means a response that is not high in density because it is reflected twice or more.
 * Early reflection is Important cues of time separation, frequency characteristics, and incident angle of the reflections.
+
 Late reflection
 * Late reflection means a response with high reflection density.
 
