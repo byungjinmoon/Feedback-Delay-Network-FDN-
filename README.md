@@ -21,7 +21,7 @@ Reverberation is a sound that continues even after the sound is generated.
 
 The time it takes for the signal to fall by 60dB.
 
-<img src="https://user-images.githubusercontent.com/86009768/131359020-0cfd08f7-8b85-4f60-b6f8-86081af1276d.png"  width="300" height="100">
+<img src="https://user-images.githubusercontent.com/86009768/131359020-0cfd08f7-8b85-4f60-b6f8-86081af1276d.png"  width="250" height="200">
 
 * RT 60 : Time required for 60dB reduction of direct sound reflections
 * Reverberation time ∝"Room size"
@@ -31,16 +31,21 @@ The time it takes for the signal to fall by 60dB.
 
 Comb filter is the basic building block for digital audio effects and the basic filter for feedback delay newtork. There are two types, Feedforward and Feedback, but the feedback type is used for FDN.
 
-<center><img src="https://user-images.githubusercontent.com/86009768/132219635-1a214f4e-d7b5-434b-9656-cbab83b38761.png"  width="500" height="100"></center>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86009768/132219635-1a214f4e-d7b5-434b-9656-cbab83b38761.png"  width="500" height="100">
+</p>
 
 * A difference equation describing the feedback comb filter can be written as **𝑦(𝑛)=𝑥(𝑛−𝜏)+𝑔∗𝑦(𝑛−𝜏)**.
 * The feedback comb filter is a special case of an Infinite Impulse Response (IIR) ("recursive'') digital filter, since there is feedback from the delayed output to the input.
 * For stability, and for setting the reverberation time to a desired value, we need to move the poles slightly inside the unit circle in the z plane.
 * To define a desired reverberation time for comb filters every gain has to be set according to the following equation. 
-<img src="https://user-images.githubusercontent.com/86009768/132216787-ad42776d-525e-415d-b1ab-e95b075b9ee6.png"  width="200" height="100">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86009768/132216787-ad42776d-525e-415d-b1ab-e95b075b9ee6.png"  width="250" height="100">
+<p>
+  
 ### Direct sound, early reflection and late reflection
-![RIR_1](https://user-images.githubusercontent.com/86009768/132230822-c3676994-879f-44d6-8dd8-14b37731b3e5.png)
-![RIR2](https://user-images.githubusercontent.com/86009768/132230818-affd21b1-f6e4-4945-bb5d-267fc443cd60.png)
+<img src="https://user-images.githubusercontent.com/86009768/132230822-c3676994-879f-44d6-8dd8-14b37731b3e5.png"  width="450" height="250"> <img src="https://user-images.githubusercontent.com/86009768/132230818-affd21b1-f6e4-4945-bb5d-267fc443cd60.png"  width="450" height="250">
+
 
 Direct sound 
 * Direct sound means the sound that comes directly to our ears from the reverberation space.
@@ -60,8 +65,10 @@ Feedback delay networks (FDNs) are recursive filters, which are widely used for 
 * How to implemetation?
   
   The FDN can be seen as a vector feedback comb filter, obtained by replacing the delay line with a diagonal delay matrix, and replacing the feedback gain by the product of a diagonal matrix times an orthogonal matrix.
-  
-  ![Comfilter to FDN](https://user-images.githubusercontent.com/86009768/131666658-3982d785-f14c-4566-853e-9722849eec2b.png)
+
+<p align="center">  
+    <img src="https://user-images.githubusercontent.com/86009768/131666658-3982d785-f14c-4566-853e-9722849eec2b.png"  width="800" height="300">
+<p>
 
 
   FDN structure - 4channel example 
