@@ -37,11 +37,14 @@ Comb filter is the basic building block for digital audio effects and the basic 
 * To define a desired reverberation time for comb filters every gain has to be set according to the following equation. ![image](https://user-images.githubusercontent.com/86009768/132216787-ad42776d-525e-415d-b1ab-e95b075b9ee6.png)
 
 ### Direct sound, early reflection and late reflection
+![RIR2](https://user-images.githubusercontent.com/86009768/132230818-affd21b1-f6e4-4945-bb5d-267fc443cd60.png)
+
+
 
 
 ### Feedback Delay Network (FDN)
 
-Feedback delay networks (FDNs) are recursive filters, which are widely used for artificial reverberation and  built around multiple delays which are feedback to their inputs and by this mimic the  sound waves bouncing back and forth in an acoustic space.
+Feedback delay networks (FDNs) are recursive filters, which are widely used for artificial reverberation and  built around multiple delays which are feedback to their inputs and by this mimic the sound waves bouncing back and forth in an acoustic space.
 
 * How to implemetation?
   
