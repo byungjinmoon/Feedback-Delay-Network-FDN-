@@ -26,16 +26,17 @@ The time it takes for the signal to fall by 60dB.
 * RT 60 : Time required for 60dB reduction of direct sound reflections
 * Reverberation time ∝"Room size"
 * Reverberation time ∝"1/Absorption"
+
 ### Comb filter
 
 Comb filter is the basic building block for digital audio effects and the basic filter for feedback delay newtork. There are two types, Feedforward and Feedback, but the feedback type is used for FDN.
-
+* ![Comb filter](https://user-images.githubusercontent.com/86009768/132219635-1a214f4e-d7b5-434b-9656-cbab83b38761.png)
 * A difference equation describing the feedback comb filter can be written as **𝑦(𝑛)=𝑥(𝑛−𝜏)+𝑔∗𝑦(𝑛−𝜏)**.
 * The feedback comb filter is a special case of an Infinite Impulse Response (IIR) ("recursive'') digital filter, since there is feedback from the delayed output to the input.
 * For stability, and for setting the reverberation time to a desired value, we need to move the poles slightly inside the unit circle in the z plane.
 * To define a desired reverberation time for comb filters every gain has to be set according to the following equation. ![image](https://user-images.githubusercontent.com/86009768/132216787-ad42776d-525e-415d-b1ab-e95b075b9ee6.png)
 
-
+### Direct sound, early reflection and late reflection
 
 
 ### Feedback Delay Network (FDN)
