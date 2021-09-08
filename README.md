@@ -76,11 +76,15 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
 
 
 * 4-channel FDN and hadamard matrix.
-  
-  ![FDN structure](https://user-images.githubusercontent.com/86009768/132512049-35a31185-cdfa-42bd-a407-262003902562.png)
+  <p align="center">  
+    <img src="https://user-images.githubusercontent.com/86009768/132512049-35a31185-cdfa-42bd-a407-262003902562.png"  width="400" height="300">
+<p>
 
-  Feedback matrix = Hadamard matrix * 1/√(2 ) * gain
-  
-  
+ Feedback matrix = Hadamard matrix * 1/√(2 ) * gain
+
+<p align="center">  
+      <img src="https://user-images.githubusercontent.com/86009768/132512038-ff6ca9cf-a5f7-4cc9-b06f-8a218fbe355d.png"  width="400" height="300">
+<p>
+
 
 
