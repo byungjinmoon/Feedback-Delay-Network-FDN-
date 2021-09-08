@@ -61,18 +61,21 @@ Late reflection
 ### Feedback Delay Network (FDN)
 
 Feedback delay networks (FDNs) are recursive filters, which are widely used for artificial reverberation and  built around multiple delays which are feedback to their inputs and by this mimic the sound waves bouncing back and forth in an acoustic space.
-
+ 
+FDN was first proposed by Gerzon ["Synthetic stereo reverberation, parts i and ii," Studio Sound, vol. 13(I), 14(II), pp. 632-635(I)] as a cross-coupled structure of several comb filters, which is a form of orthogonal matrix feedback after delay lines.
+  
+Afterwards, stautner and pauckette["Designing multichannel reverberators," Computer Music Journal, vol. 6, no. 1, pp. 52-65, 1982]  proposed a four-channel FDN of rich sound with a hardamard matrix and stability.
+  
 * How to implemetation?
   
-  The FDN can be seen as a vector feedback comb filter, obtained by replacing the delay line with a diagonal delay matrix, and replacing the feedback gain by the product of a diagonal matrix times an orthogonal matrix.
+  The FDN can be seen as a vector feedback comb filter, obtained by replacing the delay line with a diagonal delay matrix, and replacing the feedback gain by the product of a feedback matrix which can be understood as a permutation of a 4*4 hadamard matrix.
 
 <p align="center">  
     <img src="https://user-images.githubusercontent.com/86009768/131666658-3982d785-f14c-4566-853e-9722849eec2b.png"  width="800" height="300">
 <p>
 
 
-  FDN structure - 4channel example 
-  (각 parameter 구하는 밥법 정리 필요)
+* 4-channel FDN and hadamard matrix.
   
   ![FDN structure](https://user-images.githubusercontent.com/86009768/131669077-b834450b-f8f2-48bf-aec5-2f484338fe01.png)
 
