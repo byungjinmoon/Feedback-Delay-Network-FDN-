@@ -86,5 +86,18 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
       <img src="https://user-images.githubusercontent.com/86009768/132512038-ff6ca9cf-a5f7-4cc9-b06f-8a218fbe355d.png"  width="400" height="300">
 <p>
 
-
+  * How to set parameters?
+  
+    Direct sound(d) : The amplitude of the sound pressure emanating from a simple source (point source) drops as 1/distance. 
+  
+    Reflection(b_n or c_n) : In general, the attenuation of a ray coming from an image source will be approximately att=k^m/src_to_lis.
+    * k is the amplitude reflection coefficient of the wall. The amplitude attenuation k is related to the energy absorption coefficient by k=(1-absortion)^(1/2). A typical value for absorption coefficients is 0.04 at 500 Hz, yielding yielding k=  1/√(1-0.04)=0.98.
+    * m is the numbers of walls.
+    * Src_to_lis is the distance from the image source to the listener position.
+  
+    Delay length(m_n)
+    * The corresponding delay is Del = src_to_lis/VEL * sampling frequency 
+    * Longest delay length were typically abount 1/10sec(if sampling frequency is 44100Hz, longest delay is 4410 sample.)
+    * Lengths spanning a ratio of 1:1.5
+    * Following Schroeder's original insight, the delay line lengths in an FDN are typically chosen to be mutually prime.
 
