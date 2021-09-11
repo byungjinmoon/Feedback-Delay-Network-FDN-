@@ -97,7 +97,7 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
   
     Delay length(m_n)
     * The corresponding delay is Del = src_to_lis/VEL * sampling frequency 
-    * Longest delay length were typically abount 1/10sec(if sampling frequency is 44100Hz, longest delay is 4410 sample.)
+    * Longest delay length were typically abount 1/10sec(if sampling frequency is 44100Hz, longest delay is 4410 sample).
     * Lengths spanning a ratio of 1:1.5
     * Following Schroeder's original insight, the delay line lengths in an FDN are typically chosen to be mutually prime.
 
