@@ -112,6 +112,6 @@ Comb filter and reverberation time
   * reverberation time : 1.2sec
   * gain : 0.8414 (calculation using formulas)
 * Results
-<p align="center">  
-      <img src="https://user-images.githubusercontent.com/86009768/132974239-95f825c6-a4a6-4c81-9dff-3a00bcb36ff8.png"  width="1000" height="300">
-<p>
+
+  ![combfilter_result](https://user-images.githubusercontent.com/86009768/132975148-1acb6055-bbec-4ff1-9fe1-8c865b93c5fa.png)
+
