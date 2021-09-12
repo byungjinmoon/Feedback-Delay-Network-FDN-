@@ -101,9 +101,10 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
     * Lengths spanning a ratio of 1:1.5
     * Following Schroeder's original insight, the delay line lengths in an FDN are typically chosen to be mutually prime.
 
-  # Experiment result
+# Experiment result
     
-    Comb filter and reverberation time
+Comb filter and reverberation time
+  
     * Input : impulse
     * Parmeters 
       * sampling frequency : 1000Hz
