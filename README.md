@@ -106,10 +106,14 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
 Comb filter and reverberation time
   
     * Input : impulse
+  
     * Parmeters 
+  
       * sampling frequency : 1000Hz
       * delay sample : 30 sample
       * reverberation time : 1.2sec
       * gain : 0.8414 (calculation using formulas)
     * Results
-  
+<p align="center">  
+      <img src="https://user-images.githubusercontent.com/86009768/132974239-95f825c6-a4a6-4c81-9dff-3a00bcb36ff8.png"  width="400" height="300">
+<p>
