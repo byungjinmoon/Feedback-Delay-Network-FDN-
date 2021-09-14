@@ -124,4 +124,4 @@ FDN impulse response and sound
   * T_60 : 3sec
   * implementation of RIR and reverberation sound using example audio 
  ![RIR of FDN](https://user-images.githubusercontent.com/86009768/133260397-767db130-8c9b-4a2d-a8e0-aad1cc3736e6.png)
-
+  (sound)
