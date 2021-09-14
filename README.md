@@ -123,5 +123,5 @@ FDN impulse response and sound
   * src_to_lis : 10m 
   * T_60 : 3sec
   * implementation of RIR and reverberation sound using example audio 
-  
-  
+  ![RIR of FDN](https://user-images.githubusercontent.com/86009768/133260021-2db7e70d-06a5-4a17-bb44-2634bde154e2.png)
+
