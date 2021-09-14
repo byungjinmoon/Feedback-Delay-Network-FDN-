@@ -120,8 +120,8 @@ FDN impulse response and sound
 * We can implement room impulse response (RIR) using FDN. RIR consists of direct sound, early reflections, and late reverberation.
 * Parameters
   * sampling frequency : 44100Hz
-  * src_to_lis : 10m 
-  * T_60 : 3sec
+  * src_to_lis : 20m 
+  * T_60 : 2sec
   * implementation of RIR and reverberation sound using example audio 
  ![RIR of FDN](https://user-images.githubusercontent.com/86009768/133260397-767db130-8c9b-4a2d-a8e0-aad1cc3736e6.png)
   (sound)
