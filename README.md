@@ -115,3 +115,13 @@ Comb filter and reverberation time
 
   ![combfilter_result](https://user-images.githubusercontent.com/86009768/132975148-1acb6055-bbec-4ff1-9fe1-8c865b93c5fa.png)
 
+FDN impulse response and sound
+  
+* We can implement room impulse response (RIR) using FDN. RIR consists of direct sound, early reflections, and late reverberation.
+* Parameters
+  * sampling frequency : 44100Hz
+  * src_to_lis : 10m 
+  * T_60 : 3sec
+  * implementation of RIR and reverberation sound using example audio 
+  
+  
