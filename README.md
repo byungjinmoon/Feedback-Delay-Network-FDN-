@@ -101,6 +101,16 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
     * Lengths spanning a ratio of 1:1.5
     * Following Schroeder's original insight, the delay line lengths in an FDN are typically chosen to be mutually prime.
 
+  
+### Frequency dependent Feedback Delay Network (FDN)
+  
+FDN can achieve richer and more realistic reflections when simulating the frequency characteristics reflected from walls and objects in real environments.
+
+Energy absorption occurs at frequencies between 500 Hz and 2000 Hz or higher.
+
+You can simulate this effect by adding a filter to the FDN structure.
+
+  
 # Experiment result
     
 Comb filter and reverberation time
