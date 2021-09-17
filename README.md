@@ -110,6 +110,8 @@ Energy absorption occurs at frequencies between 500 Hz and 2000 Hz or higher.
 
 You can simulate this effect by adding a filter to the FDN structure.
 
+![Frequency dependent FDN](https://user-images.githubusercontent.com/86009768/133734133-13cf10db-d02e-4f8d-b814-b8c500f9acc5.png)
+
   
 # Experiment result
     
