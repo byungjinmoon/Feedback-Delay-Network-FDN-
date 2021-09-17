@@ -108,15 +108,17 @@ FDN can achieve richer and more realistic reflections when simulating the freque
 
 Energy absorption occurs at frequencies between 500 Hz and 2000 Hz or higher.
 
-You can simulate this effect by adding a filter to the FDN structure.
+And the reverberation time of the frequency in various spaces is different.
+
+We can simulate this effect by adding a filter to the FDN structure.
  
   * Structure
   
-![Frequency dependent FDN](https://user-images.githubusercontent.com/86009768/133734133-13cf10db-d02e-4f8d-b814-b8c500f9acc5.png)
+    ![Frequency dependent FDN](https://user-images.githubusercontent.com/86009768/133734133-13cf10db-d02e-4f8d-b814-b8c500f9acc5.png)
 
   * Frequency and reverberation time in various space
   
-![Frequency dependent FDN table](https://user-images.githubusercontent.com/86009768/133734334-3b28a5e2-e1c7-48a3-8ade-a08c48b8cd89.png)
+    ![Frequency dependent FDN table](https://user-images.githubusercontent.com/86009768/133734334-3b28a5e2-e1c7-48a3-8ade-a08c48b8cd89.png)
   
   
 # Experiment result
