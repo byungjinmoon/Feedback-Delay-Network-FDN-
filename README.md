@@ -120,7 +120,19 @@ We can simulate this effect by adding a filter to the FDN structure.
   
     ![Frequency dependent FDN table](https://user-images.githubusercontent.com/86009768/133734334-3b28a5e2-e1c7-48a3-8ade-a08c48b8cd89.png)
   
+### Frequency dependent Feedback Delay Network (FDN)
   
+EDR (Energy Delay Relief) is a time-frequency distribution of signal energy remaining in reverberator’s impulse response over time in multiple frequency bands.
+  
+The reverberation time for frequency bands can be confirmed by analyzing the EDR.
+
+![image](https://user-images.githubusercontent.com/86009768/133886691-3479f339-16e6-4dc4-92d4-565c1e9dda7a.png)
+
+* How to implemenation?
+
+  ![image](https://user-images.githubusercontent.com/86009768/133886683-d24a658b-ce11-49b3-8657-33f92b11b1b5.png)
+  * 𝐻(𝑚,𝑘) denotes bin 𝑘 of the Short Time Fourier transform (STFT) at time – frame 𝑚.
+
 # Experiment result
     
 Comb filter and reverberation time
