@@ -135,7 +135,7 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
 
 # Experiment result
     
-Comb filter and reverberation time
+### Comb filter and reverberation time
   
 * Input : impulse
 * Parmeters 
@@ -147,7 +147,7 @@ Comb filter and reverberation time
 
   ![combfilter_result](https://user-images.githubusercontent.com/86009768/132975148-1acb6055-bbec-4ff1-9fe1-8c865b93c5fa.png)
 
-FDN impulse response and sound
+### FDN impulse response and sound
   
 * We can implement room impulse response (RIR) using FDN. RIR consists of direct sound, early reflections, and late reverberation.
 * Parameters
@@ -157,5 +157,10 @@ FDN impulse response and sound
   * implementation of RIR and reverberation sound using example audio 
  ![RIR of FDN](https://user-images.githubusercontent.com/86009768/133260397-767db130-8c9b-4a2d-a8e0-aad1cc3736e6.png)
   
-  (sound)
+  (original sound and reverberation sound)
+  
+### Frequency dependent FDN
+  
+  
+
   
