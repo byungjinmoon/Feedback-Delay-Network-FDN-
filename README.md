@@ -163,8 +163,22 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
   
 * We can achieve richer and more realistic reverberation using frequency dependent FDN.
 * FDN was implemented on the premise of an actual large space.
-* Implementation1 (IIR filter)
-  * *We can design first-order IIR filter using DC gain and Nyquist gain.
+* Implementation1 (FIR filter)
+  * input : audio sample
+  * samling frequnecy : 44100Hz
+  * frequency and reverberation time in large space
+    * 125Hz - 3.25sec, 500Hz - 2.75sec, 2000Hz - 2.75sec
+    * FIR filters (The gain was obtained by considering the reverberation time corresponding to the frequency, and the filters were also designed.)
+      ![image](https://user-images.githubusercontent.com/86009768/133952989-adfd610b-9976-4eab-bb1a-18698cd696a0.png)
+  
+  * Implementation of EDR and plot energy decay with reverberation time at each frequency
+     ![image](https://user-images.githubusercontent.com/86009768/133967559-40669261-0b16-4e80-9c9f-9f5641754a35.png)
+
+  * Implementation of reverberation sound in a large area with frequency dependent FDN
+    (sound)
+
+* Implementation2 (IIR filter)
+  * *When an IIR filter is used, the reverberation time for each frequency cannot be implemented as accurate as the FIR filter, but a reverberator with a small computation can be implemented by designing a similar filter. We can design first-order IIR filter using DC gain and Nyquist gain. 
      
      First-order IIR filter ![image](https://user-images.githubusercontent.com/86009768/133979041-e22a67c1-7974-485f-a03a-439147ed3cd8.png)
   
@@ -182,17 +196,9 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
     * DC - 3.25sec, Nyquist frequency - 1.0sec
     * IIR filters (With IIR filter, the reverberation time can be similarly implemented for each frequency.)
       ![image](https://user-images.githubusercontent.com/86009768/133982657-6dfb9470-28f1-4f56-a114-bdfbc405d0dd.png)    
-  
-* Implementation2 (FIR filter)
-  * input : audio sample
-  * samling frequnecy : 44100Hz
-  * frequency and reverberation time in large space
-    * 125Hz - 3.25sec, 500Hz - 2.75sec, 2000Hz - 2.75sec
-    * FIR filters (The gain was obtained by considering the reverberation time corresponding to the frequency, and the filters were also designed.)
-      ![image](https://user-images.githubusercontent.com/86009768/133952989-adfd610b-9976-4eab-bb1a-18698cd696a0.png)
-  
+    
   * Implementation of EDR and plot energy decay with reverberation time at each frequency
-     ![image](https://user-images.githubusercontent.com/86009768/133967559-40669261-0b16-4e80-9c9f-9f5641754a35.png)
+    ![image](https://user-images.githubusercontent.com/86009768/133983939-d7a27cc1-1493-4a61-9e10-7ca06f79e168.png)
 
   * Implementation of reverberation sound in a large area with frequency dependent FDN
     (sound)
