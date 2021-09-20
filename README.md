@@ -47,7 +47,7 @@ Comb filter is the basic building block for digital audio effects and the basic 
   
 ### Direct sound, early reflection and late reflection
 ![image](https://user-images.githubusercontent.com/86009768/133999561-adab95f9-985b-4b74-bef5-07aa9a4dafdd.png) 
-![image](https://user-images.githubusercontent.com/86009768/134004331-44972c16-3cfe-43ee-8225-75d1acb1b886.png)
+![image](https://user-images.githubusercontent.com/86009768/134004415-1b2267e1-fd8a-4b8b-8ab9-20e44e22a9e1.png)
 
 Direct sound 
 * Direct sound means the sound that comes directly to our ears from the reverberation space.
