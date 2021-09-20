@@ -172,6 +172,9 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
       ![image](https://user-images.githubusercontent.com/86009768/133952989-adfd610b-9976-4eab-bb1a-18698cd696a0.png)
   
  * Implementation of EDR and plot energy decay with reverberation time at each frequency
+   ![image](https://user-images.githubusercontent.com/86009768/133967559-40669261-0b16-4e80-9c9f-9f5641754a35.png)
 
+  * Implementation of reverberation sound in a large area with frequency dependent FDN
+    (sound)
 
   
