@@ -110,7 +110,7 @@ Energy absorption occurs at frequencies between 500 Hz and 2000 Hz or higher.
 
 And the reverberation time of the frequency in various spaces is different.
 
-We can simulate this effect by adding a filter to the FDN structure.
+We can simulate this effect by adding a filter (IIR filter or FIR filter) to the FDN structure.
  
   * Structure
   
@@ -120,7 +120,7 @@ We can simulate this effect by adding a filter to the FDN structure.
   
     ![Frequency dependent FDN table](https://user-images.githubusercontent.com/86009768/133734334-3b28a5e2-e1c7-48a3-8ade-a08c48b8cd89.png)
   
-### Frequency dependent Feedback Delay Network (FDN)
+### Energy Delay Relief (EDR)
   
 EDR (Energy Delay Relief) is a time-frequency distribution of signal energy remaining in reverberator’s impulse response over time in multiple frequency bands.
   
