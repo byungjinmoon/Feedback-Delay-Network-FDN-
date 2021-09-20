@@ -178,7 +178,8 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
     (sound)
 
 * Implementation2 (IIR filter)
-  * *When an IIR filter is used, the reverberation time for each frequency cannot be implemented as accurate as the FIR filter, but a reverberator with a small computation can be implemented by designing a similar filter. We can design first-order IIR filter using DC gain and Nyquist gain. 
+  * When an IIR filter is used, the reverberation time for each frequency cannot be implemented as accurate as the FIR filter, but a reverberator with a small computation can be implemented by designing a similar filter. 
+  * We can design first-order IIR filter using DC gain and Nyquist gain. 
      
      First-order IIR filter ![image](https://user-images.githubusercontent.com/86009768/133979041-e22a67c1-7974-485f-a03a-439147ed3cd8.png)
   
