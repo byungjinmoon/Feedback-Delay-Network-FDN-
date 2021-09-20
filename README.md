@@ -165,10 +165,15 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
 * FDN was implemented on the premise of an actual large space.
 * Implementation1 (IIR filter)
   * *We can design first-order IIR filter using DC gain and Nyquist gain.
+     
      First-order IIR filter ![image](https://user-images.githubusercontent.com/86009768/133979041-e22a67c1-7974-485f-a03a-439147ed3cd8.png)
+  
      The DC gain of this filter is [image](https://user-images.githubusercontent.com/86009768/133979083-bdbf0745-4ae1-445a-b832-8995ac44a28f.png)
+  
      The Nyquist frequency gain of this filter is ![image](https://user-images.githubusercontent.com/86009768/133979120-b084df69-9bc6-40ea-9beb-4b2ceea0c578.png)
+  
      ![image](https://user-images.githubusercontent.com/86009768/133979170-c9964ee2-95bd-44f9-b213-4986a031338c.png)
+  
   * input : audio sample
   * samling frequnecy : 44100Hz
   * frequency and reverberation time in large space
