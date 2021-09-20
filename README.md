@@ -46,7 +46,8 @@ Comb filter is the basic building block for digital audio effects and the basic 
 <p>
   
 ### Direct sound, early reflection and late reflection
-<img src="https://user-images.githubusercontent.com/86009768/132230822-c3676994-879f-44d6-8dd8-14b37731b3e5.png"  width="450" height="250"> <img src="https://user-images.githubusercontent.com/86009768/132230818-affd21b1-f6e4-4945-bb5d-267fc443cd60.png"  width="450" height="250">
+![image](https://user-images.githubusercontent.com/86009768/133999561-adab95f9-985b-4b74-bef5-07aa9a4dafdd.png) 
+ <img src="https://user-images.githubusercontent.com/86009768/132230818-affd21b1-f6e4-4945-bb5d-267fc443cd60.png"  width="450" height="250">
 
 
 Direct sound 
