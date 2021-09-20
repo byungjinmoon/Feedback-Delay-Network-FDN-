@@ -168,9 +168,11 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
      
      First-order IIR filter ![image](https://user-images.githubusercontent.com/86009768/133979041-e22a67c1-7974-485f-a03a-439147ed3cd8.png)
   
-     The DC gain of this filter is [image](https://user-images.githubusercontent.com/86009768/133979083-bdbf0745-4ae1-445a-b832-8995ac44a28f.png)
+     The DC gain of this filter is ![image](https://user-images.githubusercontent.com/86009768/133979410-8a73a045-0c76-457a-ab1e-b954856b820d.png)
+
   
-     The Nyquist frequency gain of this filter is ![image](https://user-images.githubusercontent.com/86009768/133979120-b084df69-9bc6-40ea-9beb-4b2ceea0c578.png)
+     The Nyquist frequency gain of this filter is ![image](https://user-images.githubusercontent.com/86009768/133979439-706f9cf5-2c1a-4a40-95e5-579ff6fa98e0.png)
+
   
      ![image](https://user-images.githubusercontent.com/86009768/133979170-c9964ee2-95bd-44f9-b213-4986a031338c.png)
   
