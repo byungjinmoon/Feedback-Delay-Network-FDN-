@@ -181,8 +181,7 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
   * frequency and reverberation time in large space
     * DC - 3.25sec, Nyquist frequency - 1.0sec
     * IIR filters 
-      ![image](https://user-images.githubusercontent.com/86009768/133982233-636b47bb-ab04-4a29-9446-6dc1d158a5c8.png)
-    
+      ![image](https://user-images.githubusercontent.com/86009768/133982657-6dfb9470-28f1-4f56-a114-bdfbc405d0dd.png)    
   
 * Implementation2 (FIR filter)
   * input : audio sample
