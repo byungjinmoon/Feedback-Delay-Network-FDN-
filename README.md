@@ -154,7 +154,7 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
   * sampling frequency : 44100Hz
   * src_to_lis : 20m 
   * T_60 : 2sec
-  * implementation of RIR and reverberation sound using example audio 
+* Implementation of RIR and reverberation sound using example audio 
  ![RIR of FDN](https://user-images.githubusercontent.com/86009768/133260397-767db130-8c9b-4a2d-a8e0-aad1cc3736e6.png)
   
   (original sound and reverberation sound)
@@ -171,7 +171,7 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
     * FIR filters (The gain was obtained by considering the reverberation time corresponding to the frequency, and the filters were also designed.)
       ![image](https://user-images.githubusercontent.com/86009768/133952989-adfd610b-9976-4eab-bb1a-18698cd696a0.png)
   
+  * Implementation of EDR and plot energy decay with reverberation time at each frequency
 
-   
 
   
