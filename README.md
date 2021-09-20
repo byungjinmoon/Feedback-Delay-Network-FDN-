@@ -167,8 +167,10 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
   * input : audio sample
   * samling frequnecy : 44100Hz
   * frequency and reverberation time in large space
-    * 125Hz - 3.25sec, 500Hz - 2.75, 2000Hz - 2.75
+    * 125Hz - 3.25sec, 500Hz - 2.75sec, 2000Hz - 2.75sec
     * FIR filters (The gain was obtained by considering the reverberation time corresponding to the frequency, and the filters were also designed.)
-  
+      ![image](https://user-images.githubusercontent.com/86009768/133950573-9bfeb6a9-3570-4a30-a328-d86641c737c3.png)
+
+   
 
   
