@@ -163,7 +163,13 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
   
 * We can achieve richer and more realistic reverberation using frequency dependent FDN.
 * FDN was implemented on the premise of an actual large space.
-* Parameters
+* Implementation1 (IIR filter)
+  * input : audio sample
+  * samling frequnecy : 44100Hz
+  * frequency and reverberation time in large space
+  
+  
+* Implementation2 (FIR filter)
   * input : audio sample
   * samling frequnecy : 44100Hz
   * frequency and reverberation time in large space
@@ -171,8 +177,8 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
     * FIR filters (The gain was obtained by considering the reverberation time corresponding to the frequency, and the filters were also designed.)
       ![image](https://user-images.githubusercontent.com/86009768/133952989-adfd610b-9976-4eab-bb1a-18698cd696a0.png)
   
- * Implementation of EDR and plot energy decay with reverberation time at each frequency
-   ![image](https://user-images.githubusercontent.com/86009768/133967559-40669261-0b16-4e80-9c9f-9f5641754a35.png)
+  * Implementation of EDR and plot energy decay with reverberation time at each frequency
+     ![image](https://user-images.githubusercontent.com/86009768/133967559-40669261-0b16-4e80-9c9f-9f5641754a35.png)
 
   * Implementation of reverberation sound in a large area with frequency dependent FDN
     (sound)
