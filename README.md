@@ -171,7 +171,7 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
     * FIR filters (The gain was obtained by considering the reverberation time corresponding to the frequency, and the filters were also designed.)
       ![image](https://user-images.githubusercontent.com/86009768/133952989-adfd610b-9976-4eab-bb1a-18698cd696a0.png)
   
-  * Implementation of EDR and plot energy decay with reverberation time at each frequency
+ * Implementation of EDR and plot energy decay with reverberation time at each frequency
 
 
   
