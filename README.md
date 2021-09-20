@@ -15,13 +15,15 @@ FDN implementation of:
 ### Reverberation
 Reverberation is a sound that continues even after the sound is generated.
 
-<img src="https://user-images.githubusercontent.com/86009768/131354917-b95f56d0-c415-4a98-9f47-b3c00262c1c2.png"  width="250" height="200">
-
+ ![image](https://user-images.githubusercontent.com/86009768/133998092-b797d53b-953f-4f46-bd78-5ffb00ab3e1f.png)
+ 
+ [image from https://newenglandsoundproofing.com/reverberation_testing]
+ 
 ### Reverberation time
 
 The time it takes for the signal to fall by 60dB.
 
-<img src="https://user-images.githubusercontent.com/86009768/131359020-0cfd08f7-8b85-4f60-b6f8-86081af1276d.png"  width="250" height="200">
+![image](https://user-images.githubusercontent.com/86009768/133998450-4a85b29a-53a5-4def-b36b-cb944bb9737e.png)
 
 * RT 60 : Time required for 60dB reduction of direct sound reflections
 * Reverberation time ∝"Room size"
