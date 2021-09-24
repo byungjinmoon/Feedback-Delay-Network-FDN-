@@ -75,15 +75,11 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
   ![image](https://user-images.githubusercontent.com/86009768/134004869-203d938a-662d-4b35-82a2-9bdb688de1b5.png)
 
 * 4-channel FDN and hadamard matrix.
-  <p align="center">  
-    <img src="https://user-images.githubusercontent.com/86009768/132512049-35a31185-cdfa-42bd-a407-262003902562.png"  width="400" height="300">
-<p>
+  ![image](https://user-images.githubusercontent.com/86009768/134613727-e685859e-438e-439c-861b-db4860fbbe4c.png)
 
  Feedback matrix = Hadamard matrix * 1/√(2 ) * gain
 
-<p align="center">  
-      <img src="https://user-images.githubusercontent.com/86009768/132512038-ff6ca9cf-a5f7-4cc9-b06f-8a218fbe355d.png"  width="400" height="300">
-<p>
+  ![image](https://user-images.githubusercontent.com/86009768/134623341-b5011c26-9f72-4605-89fc-2f33b1b51b5b.png)
 
   * How to set parameters?
   
