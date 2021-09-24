@@ -123,7 +123,7 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
  
 * How to implemenation?
 
-  ![image](https://user-images.githubusercontent.com/86009768/133886683-d24a658b-ce11-49b3-8657-33f92b11b1b5.png)
+  ![image](https://user-images.githubusercontent.com/86009768/134629912-5908c12d-42e2-446b-bbae-6c10761f0f4a.png)
   * 𝐻(𝑚,𝑘) denotes bin 𝑘 of the Short Time Fourier transform (STFT) at time – frame 𝑚.
 
 # Experiment result
