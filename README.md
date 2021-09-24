@@ -33,7 +33,7 @@ The time it takes for the signal to fall by 60dB.
 
 Comb filter is the basic building block for digital audio effects and the basic filter for feedback delay newtork. There are two types, Feedforward and Feedback, but the feedback type is used for FDN.
 
-![image](https://user-images.githubusercontent.com/86009768/134629256-e86ff561-b439-4d6c-9b72-cf4c0b29bc0b.png)
+<img src="https://user-images.githubusercontent.com/86009768/134629256-e86ff561-b439-4d6c-9b72-cf4c0b29bc0b.png" width="500" height="400"/>
 
 * A difference equation describing the feedback comb filter can be written as **𝑦(𝑛)=𝑥(𝑛−𝜏)+𝑔∗𝑦(𝑛−𝜏)**.
 * The feedback comb filter is a special case of an Infinite Impulse Response (IIR) ("recursive'') digital filter, since there is feedback from the delayed output to the input.
