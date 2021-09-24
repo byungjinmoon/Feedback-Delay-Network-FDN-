@@ -122,7 +122,9 @@ EDR (Energy Delay Relief) is a time-frequency distribution of signal energy rema
 The reverberation time for frequency bands can be confirmed by analyzing the EDR.
 
 ![image](https://user-images.githubusercontent.com/86009768/133886691-3479f339-16e6-4dc4-92d4-565c1e9dda7a.png)
-
+ 
+[image frome https://www.dsprelated.com/freebooks/pasp/Energy_Decay_Relief.html]
+ 
 * How to implemenation?
 
   ![image](https://user-images.githubusercontent.com/86009768/133886683-d24a658b-ce11-49b3-8657-33f92b11b1b5.png)
