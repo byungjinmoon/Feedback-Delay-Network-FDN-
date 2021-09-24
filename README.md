@@ -15,7 +15,7 @@ FDN implementation of:
 ### Reverberation
 Reverberation is a sound that continues even after the sound is generated.
 
- ![image](https://user-images.githubusercontent.com/86009768/133998092-b797d53b-953f-4f46-bd78-5ffb00ab3e1f.png)
+<img src="https://user-images.githubusercontent.com/86009768/133998092-b797d53b-953f-4f46-bd78-5ffb00ab3e1f.png" width="500" height="400"/>
  
  [image from https://newenglandsoundproofing.com/reverberation_testing]
  
@@ -174,18 +174,27 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
   * When an IIR filter is used, the reverberation time for each frequency cannot be implemented as accurate as the FIR filter, but a reverberator with a small computation can be implemented by designing a similar filter. 
   * We can design first-order IIR filter using DC gain and Nyquist gain. 
      
-     First-order IIR filter ![image](https://user-images.githubusercontent.com/86009768/133979041-e22a67c1-7974-485f-a03a-439147ed3cd8.png)
+     First-order IIR filter 
+     
+     ![image](https://user-images.githubusercontent.com/86009768/133979041-e22a67c1-7974-485f-a03a-439147ed3cd8.png).
   
-     The DC gain of this filter is ![image](https://user-images.githubusercontent.com/86009768/133979410-8a73a045-0c76-457a-ab1e-b954856b820d.png)
+     The DC gain of this filter is 
+     
+     ![image](https://user-images.githubusercontent.com/86009768/133979410-8a73a045-0c76-457a-ab1e-b954856b820d.png).
 
   
-     The Nyquist frequency gain of this filter is ![image](https://user-images.githubusercontent.com/86009768/134631444-739a71ef-534f-4bce-8aa6-cfbb8e5a516b.png)
+     The Nyquist frequency gain of this filter is 
+     
+     ![image](https://user-images.githubusercontent.com/86009768/134631444-739a71ef-534f-4bce-8aa6-cfbb8e5a516b.png).
 
      Thus,
-    
-    ![image](https://user-images.githubusercontent.com/86009768/134631153-e1d1be9a-8041-4489-b06b-32ba437368c3.png)
-  
-  
+     
+     ![image](https://user-images.githubusercontent.com/86009768/134632173-e4bfd329-2e8e-4884-bd95-7172db61d927.png)
+     
+     These two equations can be solved to yield 
+     
+     ![image](https://user-images.githubusercontent.com/86009768/134632263-0b9b620a-e095-4607-9cdd-ce90994bc0a2.png).
+
   * input : audio sample
   * samling frequnecy : 44100Hz
   * frequency and reverberation time in large space
