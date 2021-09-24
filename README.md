@@ -72,10 +72,7 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
   
   The FDN can be seen as a vector feedback comb filter, obtained by replacing the delay line with a diagonal delay matrix, and replacing the feedback gain by the product of a feedback matrix which can be understood as a permutation of a 4*4 hadamard matrix.
 
-<p align="center">  
-    <img src="https://user-images.githubusercontent.com/86009768/131666658-3982d785-f14c-4566-853e-9722849eec2b.png"  width="800" height="300">
-<p>
-
+  ![image](https://user-images.githubusercontent.com/86009768/134004869-203d938a-662d-4b35-82a2-9bdb688de1b5.png)
 
 * 4-channel FDN and hadamard matrix.
   <p align="center">  
