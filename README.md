@@ -179,7 +179,9 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
      The DC gain of this filter is ![image](https://user-images.githubusercontent.com/86009768/133979410-8a73a045-0c76-457a-ab1e-b954856b820d.png)
 
   
-     The Nyquist frequency gain of this filter is ![image](https://user-images.githubusercontent.com/86009768/133979439-706f9cf5-2c1a-4a40-95e5-579ff6fa98e0.png)
+     The Nyquist frequency gain of this filter is 
+     ![image](https://user-images.githubusercontent.com/86009768/134631153-e1d1be9a-8041-4489-b06b-32ba437368c3.png)
+
 
   
      ![image](https://user-images.githubusercontent.com/86009768/133979170-c9964ee2-95bd-44f9-b213-4986a031338c.png)
