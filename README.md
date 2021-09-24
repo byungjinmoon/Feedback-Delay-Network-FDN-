@@ -37,7 +37,9 @@ Comb filter is the basic building block for digital audio effects and the basic 
 
   <img src="https://user-images.githubusercontent.com/86009768/134629256-e86ff561-b439-4d6c-9b72-cf4c0b29bc0b.png" width="500" height="130"/>
 
-* A difference equation describing the feedback comb filter can be written as **𝑦(𝑛)=𝑥(𝑛−𝜏)+𝑔∗𝑦(𝑛−𝜏)**.
+
+
+* A difference equation describing the feedback comb filter can be written as <img src="https://render.githubusercontent.com/render/math?math=y(n)=x(n-\sigma) %2B g\times y(n-\sigma)">
 * The feedback comb filter is a special case of an Infinite Impulse Response (IIR) ("recursive'') digital filter, since there is feedback from the delayed output to the input.
 * For stability, and for setting the reverberation time to a desired value, we need to move the poles slightly inside the unit circle in the z plane.
 * To define a desired reverberation time for comb filters every gain has to be set according to the following equation. 
@@ -86,16 +88,17 @@ Afterwards, stautner and pauckette["Designing multichannel reverberators," Compu
 
   * How to set parameters?
   
-    Direct sound(d) : The amplitude of the sound pressure emanating from a simple source (point source) drops as 1/distance. 
-  
-    Reflection(b_n or c_n) : In general, the attenuation of a ray coming from an image source will be approximately att=k^m/src_to_lis.
-    * k is the amplitude reflection coefficient of the wall. The amplitude attenuation k is related to the energy absorption coefficient by k=(1-absortion)^(1/2). A typical value for absorption coefficients is 0.04 at 500 Hz, yielding yielding k=  1/√(1-0.04)=0.98.
+    Direct sound(<img src="https://render.githubusercontent.com/render/math?math=d">) : The amplitude of the sound pressure emanating from a simple source (point source) drops as <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{distance}">. 
+    
+    Reflection(<img src="https://render.githubusercontent.com/render/math?math=b_n , c_n">) : In general, the attenuation of a ray coming from an image source will be approximately <img src="https://render.githubusercontent.com/render/math?math=att = \frac{k^{m}}{src to lis}">.
+    * k is the amplitude reflection coefficient of the wall. The amplitude attenuation k is related to the energy absorption coefficient by     <img src="https://render.githubusercontent.com/render/math?math=k=\sqrt{(1-absortion)}">. 
+    * A typical value for absorption coefficients is 0.04 at 500 Hz, yielding yielding <img src="https://render.githubusercontent.com/render/math?math=k=\sqrt{(1-0.04)}=0.98">.
     * m is the numbers of walls.
     * Src_to_lis is the distance from the image source to the listener position.
-  
-    Delay length(m_n)
-    * The corresponding delay is Del = src_to_lis/velocity_of_sound * sampling frequency 
-    * Longest delay length were typically about 1/10sec(if sampling frequency is 44100Hz, longest delay is 4410 sample).
+    
+    Delay length(<img src="https://render.githubusercontent.com/render/math?math=m_n">)
+    * The corresponding delay is <img src="https://render.githubusercontent.com/render/math?math=Delay = \frac{src to lis}{velocity of sound}\times fs">.
+    * Longest delay length were typically about <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{10sec}">(if sampling frequency is 44100Hz, longest delay is 4410 sample).
     * Lengths spanning a ratio of 1:1.5
     * Following Schroeder's original insight, the delay line lengths in an FDN are typically chosen to be mutually prime.
 
