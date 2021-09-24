@@ -113,8 +113,8 @@ We can simulate this effect by adding a filter (IIR filter or FIR filter) to the
  
   * Frequency and reverberation time in various space
   
-    ![Frequency dependent FDN table](https://user-images.githubusercontent.com/86009768/133734334-3b28a5e2-e1c7-48a3-8ade-a08c48b8cd89.png)
-  
+   ![image](https://user-images.githubusercontent.com/86009768/134627140-a7f2291e-9030-4bd2-aab9-7d8c4a1d211c.png)  
+ 
 ### Energy Delay Relief (EDR)
   
 EDR (Energy Delay Relief) is a time-frequency distribution of signal energy remaining in reverberator’s impulse response over time in multiple frequency bands.
