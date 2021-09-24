@@ -43,14 +43,7 @@ Comb filter is the basic building block for digital audio effects and the basic 
 
 ### Direct sound, early reflection and late reflection
 
-<p align="center">
 <img src="https://user-images.githubusercontent.com/86009768/133999561-adab95f9-985b-4b74-bef5-07aa9a4dafdd.png" width="500" height="300"/>
-</p>
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/86009768/134004415-1b2267e1-fd8a-4b8b-8ab9-20e44e22a9e1.png" width="700" height="300"/>
-</p>
-
 
 Direct sound 
 * Direct sound means the sound that comes directly to our ears from the reverberation space.
@@ -62,6 +55,7 @@ Ealry reflection
 Late reflection
 * Late reflection means a response with high reflection density.
 
+<img src="https://user-images.githubusercontent.com/86009768/134004415-1b2267e1-fd8a-4b8b-8ab9-20e44e22a9e1.png" width="700" height="300"/>
 
 ### Feedback Delay Network (FDN)
 
