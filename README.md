@@ -180,11 +180,9 @@ The reverberation time for frequency bands can be confirmed by analyzing the EDR
 
   
      The Nyquist frequency gain of this filter is 
-     ![image](https://user-images.githubusercontent.com/86009768/134631153-e1d1be9a-8041-4489-b06b-32ba437368c3.png)
-
-
+    
+    ![image](https://user-images.githubusercontent.com/86009768/134631153-e1d1be9a-8041-4489-b06b-32ba437368c3.png)
   
-     ![image](https://user-images.githubusercontent.com/86009768/133979170-c9964ee2-95bd-44f9-b213-4986a031338c.png)
   
   * input : audio sample
   * samling frequnecy : 44100Hz
