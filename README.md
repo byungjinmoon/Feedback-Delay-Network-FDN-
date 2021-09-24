@@ -109,7 +109,7 @@ We can simulate this effect by adding a filter (IIR filter or FIR filter) to the
  
   * Structure
   
-    ![image](https://user-images.githubusercontent.com/86009768/134623797-c080db13-0c27-4bc8-bfb0-345ee1cf434b.png)
+   ![image](https://user-images.githubusercontent.com/86009768/134628354-90a1135f-300a-44b5-ac95-60600651a515.png)
  
   * Frequency and reverberation time in various space
   
