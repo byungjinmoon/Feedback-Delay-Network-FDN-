@@ -114,7 +114,8 @@ We can simulate this effect by adding a filter (IIR filter or FIR filter) to the
  
   * Frequency and reverberation time in various space
   
-   ![image](https://user-images.githubusercontent.com/86009768/134627140-a7f2291e-9030-4bd2-aab9-7d8c4a1d211c.png)  
+    <img src="https://user-images.githubusercontent.com/86009768/134627140-a7f2291e-9030-4bd2-aab9-7d8c4a1d211c.png" width="700" height="250"/>
+
  
 ### Energy Delay Relief (EDR)
   
