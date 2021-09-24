@@ -23,7 +23,7 @@ Reverberation is a sound that continues even after the sound is generated.
 
 The time it takes for the signal to fall by 60dB.
 
-![image](https://user-images.githubusercontent.com/86009768/133998450-4a85b29a-53a5-4def-b36b-cb944bb9737e.png)
+<img src="https://user-images.githubusercontent.com/86009768/133998450-4a85b29a-53a5-4def-b36b-cb944bb9737e.png" width="500" height="300"/>
 
 * RT 60 : Time required for 60dB reduction of direct sound reflections
 * Reverberation time ∝"Room size"
