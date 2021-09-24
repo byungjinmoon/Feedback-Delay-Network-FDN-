@@ -33,7 +33,7 @@ The time it takes for the signal to fall by 60dB.
 
 Comb filter is the basic building block for digital audio effects and the basic filter for feedback delay newtork. There are two types, Feedforward and Feedback, but the feedback type is used for FDN.
 
-<img src="https://user-images.githubusercontent.com/86009768/134629256-e86ff561-b439-4d6c-9b72-cf4c0b29bc0b.png" width="500" height="400"/>
+  <img src="https://user-images.githubusercontent.com/86009768/134629256-e86ff561-b439-4d6c-9b72-cf4c0b29bc0b.png" width="500" height="130"/>
 
 * A difference equation describing the feedback comb filter can be written as **𝑦(𝑛)=𝑥(𝑛−𝜏)+𝑔∗𝑦(𝑛−𝜏)**.
 * The feedback comb filter is a special case of an Infinite Impulse Response (IIR) ("recursive'') digital filter, since there is feedback from the delayed output to the input.
@@ -42,8 +42,11 @@ Comb filter is the basic building block for digital audio effects and the basic 
 ![image](https://user-images.githubusercontent.com/86009768/134629416-5e826b16-f27e-471d-adee-dfebceedcb09.png)
 
 ### Direct sound, early reflection and late reflection
-![image](https://user-images.githubusercontent.com/86009768/133999561-adab95f9-985b-4b74-bef5-07aa9a4dafdd.png) 
-![image](https://user-images.githubusercontent.com/86009768/134004415-1b2267e1-fd8a-4b8b-8ab9-20e44e22a9e1.png)
+
+  <img src="https://user-images.githubusercontent.com/86009768/133999561-adab95f9-985b-4b74-bef5-07aa9a4dafdd.png" width="500" height="300"/>
+
+  <img src="https://user-images.githubusercontent.com/86009768/134004415-1b2267e1-fd8a-4b8b-8ab9-20e44e22a9e1.png" width="500" height="300"/>
+
 
 Direct sound 
 * Direct sound means the sound that comes directly to our ears from the reverberation space.
