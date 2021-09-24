@@ -109,8 +109,8 @@ We can simulate this effect by adding a filter (IIR filter or FIR filter) to the
  
   * Structure
   
-    ![Frequency dependent FDN](https://user-images.githubusercontent.com/86009768/133734133-13cf10db-d02e-4f8d-b814-b8c500f9acc5.png)
-
+    ![image](https://user-images.githubusercontent.com/86009768/134623797-c080db13-0c27-4bc8-bfb0-345ee1cf434b.png)
+ 
   * Frequency and reverberation time in various space
   
     ![Frequency dependent FDN table](https://user-images.githubusercontent.com/86009768/133734334-3b28a5e2-e1c7-48a3-8ade-a08c48b8cd89.png)
