@@ -39,10 +39,8 @@ Comb filter is the basic building block for digital audio effects and the basic 
 * The feedback comb filter is a special case of an Infinite Impulse Response (IIR) ("recursive'') digital filter, since there is feedback from the delayed output to the input.
 * For stability, and for setting the reverberation time to a desired value, we need to move the poles slightly inside the unit circle in the z plane.
 * To define a desired reverberation time for comb filters every gain has to be set according to the following equation. 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/86009768/132216787-ad42776d-525e-415d-b1ab-e95b075b9ee6.png"  width="250" height="100">
-<p>
-  
+![image](https://user-images.githubusercontent.com/86009768/134629416-5e826b16-f27e-471d-adee-dfebceedcb09.png)
+
 ### Direct sound, early reflection and late reflection
 ![image](https://user-images.githubusercontent.com/86009768/133999561-adab95f9-985b-4b74-bef5-07aa9a4dafdd.png) 
 ![image](https://user-images.githubusercontent.com/86009768/134004415-1b2267e1-fd8a-4b8b-8ab9-20e44e22a9e1.png)
